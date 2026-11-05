@@ -1,0 +1,14 @@
+# Code::Blocks build outputs
+bin/
+obj/
+*.exe
+*.o
+*.depend
+*.layout
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
