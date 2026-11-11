@@ -1,16 +1,12 @@
 # 智能家居设备控制模拟系统
 
-面向对象程序设计课程的连续上机项目，使用 C++ 和 Code::Blocks 开发。
+面向对象程序设计课程的连续上机项目，使用 C++17 和 Code::Blocks 开发。
 
 ## 当前进度
 
-### Lab01 - 智能设备基本类
+Lab01 已实现智能设备基本类和控制台菜单。最新工作状态与后续任务见 [PROJECT_STATUS.md](PROJECT_STATUS.md)，每阶段变更见 [CHANGELOG.md](CHANGELOG.md)。Codex 和 DeepSeek Harness 的协作约定见 [AGENTS.md](AGENTS.md)。
 
-- 定义 `Device` 类，保存设备编号、名称、房间和开关状态。
-- 支持创建设备，并校验空编号、重复编号和空名称。
-- 支持显示全部设备以及按编号查询设备。
-- 支持按编号开启、关闭设备，并提示重复控制。
-- 提供循环菜单和非法输入处理。
+课程作业 PDF 当前位于仓库上一级目录 `../OOP上机作业2026.pdf`，不随此仓库同步。
 
 ## 运行方式
 
@@ -18,7 +14,4 @@
 2. 选择 Debug 或 Release 目标。
 3. 点击 Build and Run，或按 `F9`。
 
-## 版本记录
-
-每次上机完成后，具体改动记录在 [CHANGELOG.md](CHANGELOG.md)。
-
+开始新一轮开发前，先检查 `git status`，再阅读 `PROJECT_STATUS.md`。
