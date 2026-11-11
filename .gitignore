@@ -1,6 +1,7 @@
 # Code::Blocks build outputs
 bin/
 obj/
+tmp/
 *.exe
 *.o
 *.depend
@@ -11,4 +12,3 @@ obj/
 .idea/
 .DS_Store
 Thumbs.db
-

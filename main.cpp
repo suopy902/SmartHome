@@ -1,51 +1,11 @@
 #include <iostream>
-#include<string>
+#include"Device.h"
 #include<vector>
 #include<limits>
 
 using namespace std;
 
-class Device
-{
-public:
-    string id;
-    string name;
-    string room;
-    bool isOn;
 
-    void showInfo() const
-    {
-        cout<<"设备编号:"<<id<<endl;
-        cout<<"设备名称:"<<name<<endl;
-        cout<<"所在房间:"<<room<<endl;
-        if(isOn)
-        {
-            cout<<"设备开关状态：开启"<<endl;
-        }
-        else
-        {
-            cout<<"设备开关状态：关闭"<<endl;
-        }
-    }
-    bool turnOn()
-    {
-        if(isOn)
-        {
-            return false;
-        }
-        isOn=true;
-        return true;
-    }
-    bool turnOff()
-    {
-        if(!isOn)
-        {
-            return false;
-        }
-        isOn=false;
-        return true;
-    }
-};
 
 int findDevice(const vector<Device>& devices,const string& targetId)
 {
@@ -217,7 +177,7 @@ int main()
     devices.push_back(device2);
     devices.push_back(device3);
 
-    int choice;
+    int choice = -1;
 
     do
     {
@@ -227,6 +187,7 @@ int main()
         {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(),'\n');
+            choice = -1;
 
             cout<<"输入无效，请输入数字菜单项。"<<endl;
             continue;

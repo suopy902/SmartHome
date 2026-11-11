@@ -6,7 +6,7 @@
 
 Lab01 已实现智能设备基本类和控制台菜单。最新工作状态与后续任务见 [PROJECT_STATUS.md](PROJECT_STATUS.md)，每阶段变更见 [CHANGELOG.md](CHANGELOG.md)。Codex 和 DeepSeek Harness 的协作约定见 [AGENTS.md](AGENTS.md)。
 
-课程作业 PDF 当前位于仓库上一级目录 `../OOP上机作业2026.pdf`，不随此仓库同步。
+课程要求见 [OOP上机作业2026.pdf](OOP上机作业2026.pdf)。
 
 ## 运行方式
 
