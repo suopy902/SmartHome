@@ -17,6 +17,8 @@ Lab01 已实现智能设备基本类和控制台菜单。最新工作状态与�
 
 编译结果位于 `bin/Debug/SmartHomeLab01.exe`。
 
+当前源码沿用 Code::Blocks 创建时的 GBK 编码。仓库中的 VS Code 工作区设置会自动按 GBK 打开源码，并在资源管理器中只显示 `main.cpp`、`Device.cpp` 和 `Device.h`；其他报告和测试材料仍保留在仓库中。
+
 ## 使用 Code::Blocks
 
 1. 使用 Code::Blocks 打开 `SmartHomeLab01.cbp`。
