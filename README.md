@@ -1,6 +1,6 @@
 # 智能家居设备控制模拟系统
 
-面向对象程序设计课程的连续上机项目，使用 C++17 和 Code::Blocks 开发。
+面向对象程序设计课程的连续上机项目，使用 C++17 开发，同时支持 VS Code 和 Code::Blocks。
 
 ## 当前进度
 
@@ -8,7 +8,16 @@ Lab01 已实现智能设备基本类和控制台菜单。最新工作状态与�
 
 课程要求见 [OOP上机作业2026.pdf](OOP上机作业2026.pdf)。
 
-## 运行方式
+## 使用 VS Code
+
+1. 使用 VS Code 打开本仓库文件夹。
+2. 安装 Microsoft C/C++ 扩展。
+3. 按 `Ctrl+Shift+B` 构建项目。
+4. 按 `F5` 启动调试。
+
+编译结果位于 `bin/Debug/SmartHomeLab01.exe`。
+
+## 使用 Code::Blocks
 
 1. 使用 Code::Blocks 打开 `SmartHomeLab01.cbp`。
 2. 选择 Debug 或 Release 目标。

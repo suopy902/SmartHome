@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "创建 Debug 输出目录",
+            "type": "shell",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "New-Item -ItemType Directory -Force -Path '${workspaceFolder}\\bin\\Debug' | Out-Null"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "构建 SmartHomeLab01",
+            "type": "shell",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
+                "-g",
+                "${workspaceFolder}\\main.cpp",
+                "${workspaceFolder}\\Device.cpp",
+                "-o",
+                "${workspaceFolder}\\bin\\Debug\\SmartHomeLab01.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "创建 Debug 输出目录",
+            "dependsOrder": "sequence",
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
